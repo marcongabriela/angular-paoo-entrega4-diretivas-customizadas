@@ -1,0 +1,23 @@
+
+
+<div class="row">
+
+
+
+  <div class="form-group col-md-6">
+    <label for="nomeInput">Curso</label>
+    <input type="text" class="form-control" id="nomeInput" #nomeInput>
+  </div>
+
+  <div class="form-group col-md-6 mb-2">
+    <label for="horarioInput">Período</label>
+    <input type="text" class="form-control" id="idadeInput" #horarioInput>
+  </div>
+
+</div>
+
+<div class="row">
+  <button class="btn btn-primary btn-block mt-3" (click)="adicionar(nomeInput.value, horarioInput.value)">
+    Cadastrar
+  </button>
+</div>

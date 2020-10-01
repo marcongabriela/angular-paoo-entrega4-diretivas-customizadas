@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Entrega4-paoo-diretivas"
+    }
+  },
+  "defaultProject": "Entrega4-paoo-diretivas",
+  "cli": {
+    "analytics": "30159590-36f3-457c-8f69-1f6c709ff075"
+  }
 }
